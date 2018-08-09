@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<faces-config version="2.2"
+              xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd">
+    <application>
+        <locale-config>es</locale-config>
+        <!--Etiquetas del formulario-->
+        <resource-bundle>
+            <base-name>mensajes</base-name> <!--archivo de propiedades-->
+            <var>msgs</var> <!--alias del archivo de propiedades a ser usado desde los JSF-->
+        </resource-bundle>
+        <!--cambio de texto de validadores-->
+        <message-bundle>jsf</message-bundle>
+    </application>
+</faces-config>
